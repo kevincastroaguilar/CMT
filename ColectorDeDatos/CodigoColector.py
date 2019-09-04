@@ -34,7 +34,7 @@ if not os.path.exists(direccionArchivo):
     
     print("Colectando datos por un minuto..." + "\n")
     lecturaArduino = ""
-    lecturaArduino = serial.Serial('COM7', baudrate=9600, timeout=1.0)
+    lecturaArduino = serial.Serial('COM3', baudrate=9600, timeout=1.0)
 
     contador = 1
     while contador <= 60:
