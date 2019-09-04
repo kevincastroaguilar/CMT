@@ -36,7 +36,7 @@ if not os.path.exists(direccionArchivo):
     lecturaArduino = ""
     lecturaArduino = serial.Serial('COM3', baudrate=9600, timeout=1.0)
 
-    contador = 1
+    contador = 0
     while contador <= 60:
         
         line = lecturaArduino.readline()
