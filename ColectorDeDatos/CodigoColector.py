@@ -12,7 +12,7 @@ archivo = sys.argv[3]+".txt"
 path = os.getcwd()
 usuario = getpass.getuser() 
 
-directorioParaDatos='C:\\Users\\'+usuario+'\\Desktop\\CMT\\Datos\\'
+directorioParaDatos='C:\\Users\\'+usuario+'\\Desktop\\CMT\\Datos2\\'
 
 directorioParaEstante = directorioParaDatos+carpeta+"\\"
 directorioParaTiempoDelDia = directorioParaEstante+tiempoDelDia
@@ -49,4 +49,4 @@ if not os.path.exists(direccionArchivo):
     print("Datos colectados!")
 else : 
     print("Archivo ya existe en %s " % direccionArchivo + "\n")
-    print("Por favor ingrese nuevos parametros.")
+    print("Por favor ingrese nuevos parametros.") 
